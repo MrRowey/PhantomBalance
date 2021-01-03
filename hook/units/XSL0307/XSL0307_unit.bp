@@ -1,0 +1,6 @@
+UnitBlueprint {
+BlueprintId="xsl0307",Merge=true,
+    Categories = {
+        'NAVAL',
+    },
+}

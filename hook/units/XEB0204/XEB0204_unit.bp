@@ -1,0 +1,12 @@
+UnitBlueprint {
+BlueprintId="xeb0204",Merge=true,
+    Categories = {
+    	'BUILTBYTIER3ENGINEER',
+        'BUILTBYTIER3COMMANDER',
+	},
+    Economy = {
+        BuildCostEnergy = 5400,
+        BuildCostMass = 1100,
+		DifferentialUpgradeCostCalculation = true,
+    },
+}

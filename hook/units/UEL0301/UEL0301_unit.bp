@@ -1,0 +1,16 @@
+UnitBlueprint {
+BlueprintId = "uel0301", Merge = true,
+    EnhancementPresets = {
+        RASPOD = {
+            BuildIconSortPriority = 15,
+            Description = '<LOC uel0301_RASPOD_desc>SACU ( RAS & Drone preset)',
+            Enhancements = {
+                'ResourceAllocation',
+                'Pod',
+            },
+            HelpText = '<LOC uel0301_RASPOD_help>Support Armored Command Unit. Enhanced during construction with a Resource Allocation System and Drone Engineer.',
+            SortCategory = 'SORTOTHER',
+            UnitName = '<LOC uel0301_RASPOD_name>SACU (RAS & Drone preset)',
+        },
+    },
+}

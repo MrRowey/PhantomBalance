@@ -1,0 +1,20 @@
+UnitBlueprint {
+BlueprintID = "xsa0402", Merge = "true",
+    Economy = {
+        BuildCostEnergy = 800000,
+        BuildCostMass = 52000,
+        BuildTime = 70000,
+    },
+    Intel = {
+        VisionRadius = 60,
+        RadarRadius = 75,
+    },
+    Weapon = {
+        {},{},{},{},{},
+        {
+            Damage = 4000,
+            DamageFriendly = true,
+            DamageRadius = 6,
+        },
+    },
+}

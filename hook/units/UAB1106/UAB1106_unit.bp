@@ -1,0 +1,14 @@
+UnitBlueprint {
+BlueprintId = "uab1106",Merge = "true",
+    Physics = {
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Seabed = true,
+        },
+    },
+    Wreckage = {
+        WreckageLayers = {
+            Seabed = true,
+        },
+    },
+}

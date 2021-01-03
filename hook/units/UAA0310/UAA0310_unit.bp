@@ -1,0 +1,83 @@
+UnitBlueprint {
+BlueprintId = "uaa0310",Merge = true,
+  Air = {
+		MaxAirspeed = 6,
+	},
+	Defense = {
+	  Health = 45000,
+    MaxHealth = 45000,
+    RegenRate = 6,
+    Shield = {
+      ShieldMaxHealth = 35000,
+      ShieldRechargeTime = 220,
+      ShieldRegenRate = 100,
+      ShieldSize = 28,
+		},
+  },
+  Economy = {
+    BuildCostEnergy = 800000,
+    BuildCostMass = 65000,
+    BuildRate = 350,
+		BuildTime = 55000,
+		MaintenanceConsumptionPerSecondEnergy = 3500,
+  },
+	Intel = {
+		RadarRadius = 220,
+		SonarRadius = 180,
+		VisionRadius = 80,
+	},
+  Weapon = {
+	  {	#Main Beam
+			Damage = 330,
+			DamageRadius = 3.5
+		},
+	  { #SAM
+      Damage = 325,
+      DamageRadius = 1.5,
+      MaxRadius = 75,
+    },
+    { #SAM
+			Damage = 325,
+			DamageRadius = 1.5,
+      MaxRadius = 75,
+      },
+    { #SAM
+      Damage = 325,
+      DamageRadius = 1.5,
+      MaxRadius = 75,
+    },
+    { #SAM
+      Damage = 325,
+      DamageRadius = 1.5,
+      MaxRadius = 75,
+    },
+    { #Depth Charge
+      Damage = 275,
+      DamageRadius = 2.5,
+      MaxRadius = 75,
+			RackSalvoSize = 2,
+    },
+    { #Depth Charge
+      Damage = 275, 
+      DamageRadius = 2.5,
+      MaxRadius = 75,
+      RackSalvoSize = 2,
+    },
+    { #Flack			
+      Damage = 240, 
+      DamageRadius = 2.5,
+      MaxRadius = 50,
+      WeaponUnpacks = true,
+    },
+		{ #Flack			
+      Damage = 240, 
+      DamageRadius = 2.5,
+      MaxRadius = 50,
+      WeaponUnpacks = true,
+    },
+		{	#Death Weapon
+      Damage = 3000,
+      DamageRadius = 12,
+    },
+  },
+}

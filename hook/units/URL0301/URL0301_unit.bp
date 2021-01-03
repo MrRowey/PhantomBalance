@@ -1,0 +1,16 @@
+UnitBlueprint {
+BlueprintId="url0301",Merge=true,
+    EnhancementPresets = {
+        RASAA = {
+            BuildIconSortPriority = 25,
+            Description = '<LOC url0301_RASAA_desc>SACU (RAS & AA preset)',
+            Enhancements = {
+                'NaniteMissileSystem',
+                'ResourceAllocation',
+            },
+            HelpText = '<LOC url0301_RASAA_help>Support Armored Command Unit. Enhanced during construction with a Resource Allocation System and nanite missile system.',
+            SortCategory = 'SORTOTHER',
+            UnitName = '<LOC url0301_RASAA_name>SACU (RAS & AA preset)',
+        },
+    },
+}

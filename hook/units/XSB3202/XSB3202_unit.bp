@@ -1,0 +1,65 @@
+UnitBlueprint {
+BlueprintId="xsb3202",Merge=true,
+    Categories = {
+		#'LOWSELECTPRIO',
+	},
+	Defence = {
+		Health = 1375,
+		MaxHealth = 1375,
+		EconomyThreatLevel = 3,
+	},
+	Display = {
+        Abilities = {
+			'<LOC ability_upgradable>Upgradeable',
+			#'<LOC ability_submersible>Submersible',
+        },
+        AnimationUpgrade = '/units/xsb3202/xsb3202_aupgrade.sca',
+    },
+    Economy = {
+        BuildCostEnergy = 3700,
+        BuildCostMass = 150,
+        BuildTime = 620,
+		BuildableCategory = {
+			'SeraphimT3Sonar',
+		},
+        MaintenanceConsumptionPerSecondEnergy = 100,
+        RebuildBonusIds = {
+            'SeraphimT3Sonar',
+        },
+    },
+    General = {
+		CommandCaps = {
+			RULEUCC_Dive = false,
+			RULEUCC_Guard = false,
+			RULEUCC_Move = false,
+			RULEUCC_Patrol = false,
+			RULEUCC_RetaliteToggle = false,
+			RULEUCC_Stop = false,
+		},
+		SelectionPriority = 5,
+		UpgradesTo = 'SeraphimT3Sonar',
+    },
+	Intel = {
+		SonarRadius = 250,
+	},
+	Physics = {
+		BuildOnLayerCaps = {
+		LAYER_Sub = false,
+		},
+		#Elevation = -2,
+        #MaxAcceleration = 1,
+        #MaxBrake = 1,
+        #MaxSpeed = 1,
+        #MaxSpeedReverse = 0,
+        #MinSpeedPercent = 0,
+        #MotionType = 'RULEUMT_SurfacingSub',
+        #TurnRadius = 5,
+        #TurnRate = 20,
+        #SubSpeedMultiplier = 0.5,
+	},
+	Wreckage = {
+		WreckageLayers = {
+			Sub = false,
+		},
+	},
+}

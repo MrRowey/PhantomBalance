@@ -1,0 +1,6 @@
+UnitBlueprint {
+BlueprintId='xea3204',Merge=true,
+	Economy = {
+        BuildRate = 28,
+    },
+}

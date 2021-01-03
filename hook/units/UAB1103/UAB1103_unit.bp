@@ -1,0 +1,6 @@
+UnitBlueprint {
+BlueprintID = "uab1103",Merge = true,
+    Categories = {
+        'DRAGBUILD',
+    },
+}

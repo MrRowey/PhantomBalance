@@ -1,0 +1,34 @@
+UnitBlueprint {
+BlueprintId = "xab1401",
+Merge=true,
+    Defense = {
+        Health = 7500,
+        MaxHealth = 7500,
+        RegenRate = 10,
+    },
+    Economy = {
+        BuildCostEnergy = 13250000,
+        BuildCostMass = 350000,
+        BuildTime = 450000,
+        MaxEnergy = 750000,
+        MaxMass = 7500,
+    },
+    Footprint = {
+        SizeX = 5,
+        SizeZ = 5,
+    },
+    Physics = {
+        SkirtOffsetX = -1.5,
+        SkirtOffsetZ = -1.5,
+        SkirtSizeX = 8,
+        SkirtSizeZ = 8,
+    },
+    Weapon = {
+        {
+            NukeInnerRingDamage = 50000,
+            NukeInnerRingRadius = 15,
+            NukeOuterRingDamage = 15000,
+            NukeOuterRingRadius = 30,
+        },
+    },
+}

@@ -1,0 +1,10 @@
+UnitBlueprint {
+BlueprintId="uab4301",Merge=true,
+    Defense = {
+        Health = 330, # Slight Hp incresse due to t2 shield hp incresse
+        MaxHealth = 330,
+    },
+    General = {
+		UpgradesFrom = 'uab4202',
+    },    
+}

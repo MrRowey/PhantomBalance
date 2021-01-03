@@ -1,0 +1,24 @@
+UnitBlueprint {
+BlueprintId="uab4202",Merge=true,
+    Defense = {
+		Health = 220, # From 150
+		MaxHealth = 220, # From 150
+	},
+	Display = {
+		Abilities = {
+			'<LOC ability_upgradable>Upgradeable', # Now Alows it to upgrade to T3
+		},
+		AnimationDeath = {
+				{
+				AnimationRateMax = 1.5, # Increced from 0.5 to speed up death animation to be more inline wiht all other t2 shields
+				AnimationRateMin = 1.5,
+				},
+		},
+	},
+    Economy = {
+		BuildRate = 14, # Made to a Round Number from 13.66
+	},
+    General = {
+		UpgradesTo = 'uab4301',
+	},
+}

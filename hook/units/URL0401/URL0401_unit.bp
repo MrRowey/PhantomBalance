@@ -1,0 +1,29 @@
+UnitBlueprint {
+BlueprintId="url0401",Merge=true,
+    Defense = {
+        Health = 9350,
+        MaxHealth = 9500,
+        RegenRate = 6,   
+    },
+    Economy = {
+        BuildCostEnergy = 2000000,
+        BuildCostMass = 200000, 
+        BuildTime = 325000, 
+	},
+    Physics = {
+        MaxAcceleration = 1.8, # 2 to 1.8
+        MaxSpeed = 2.2, # 2.5 to 2.2 
+	},
+    Weapon = {
+        {
+            Damage = 1350,
+            DamageRadius = 7.5,
+            EnergyDrainPerSecond = 10000,
+            FixedSpreadRadius = 30,
+            MaxRadius = 850, 
+            MinRadius = 215, 
+            MuzzleSalvoSize = 12,
+            WeaponUnpackTimeout = 12,
+        },
+    },
+}

@@ -1,0 +1,7 @@
+UnitBlueprint {
+BlueprintId="xrb0104",Merge=true,
+	General = {
+        UnitName = '<LOC xrb0104_name>The Hive',
+        UpgradesTo = 'TheSwarm',	
+	},
+}
