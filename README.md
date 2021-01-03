@@ -1,11 +1,6 @@
 Phantom Balance Patch
 ---------------------
 
-Current Version is: 88
-
-Changelog can be found [here](changelog.md)
-
-
 Project
 -------
 Visit my Trello Page to See the Ideas i have for the mod and stuff that is on the to do list [here](https://trello.com/b/cnUefu6F/phantom-balance-patch) 
