@@ -1,6 +1,6 @@
 name = "Phantom Balance Patch"
-uid = "1c5c4cc1-4c2e-4ee2-bf0b-10000000000088"
-version = 88
+uid = "1c5c4cc1-4c2e-4ee2-bf0b-10000000000089"
+version = 89
 copyright = "Rowey"
 description = "This Mod Changes some of the base unit stats and add a few units to make Phantom more Balanced. Any Issuse you come across Please Open a Issuse on my Github Page"
 author = "Rowey"
