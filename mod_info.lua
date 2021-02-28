@@ -1,5 +1,5 @@
 name = "Phantom Balance Patch"
-uid = "1c5c4cc1-4c2e-4ee2-bf0b-10000000000089"
+uid = "1c5c4cc1-4c2e-4ee2-bf0b-10000000000090"
 version = 90
 copyright = "Rowey"
 description = "This is a Balance Mod for Phantom-X. Any Issuse please open a Issuse on my Github"
