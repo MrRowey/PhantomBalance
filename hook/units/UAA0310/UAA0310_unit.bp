@@ -18,7 +18,7 @@ BlueprintId = "uaa0310",Merge = true,
     BuildCostEnergy = 800000,
     BuildCostMass = 65000,
     BuildRate = 350,
-		BuildTime = 55000,
+		BuildTime = 42188,
 		MaintenanceConsumptionPerSecondEnergy = 3500,
   },
 	Intel = {

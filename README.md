@@ -1,7 +1,7 @@
 Phantom Balance Patch
 ---------------------
 
-Current Version is: 89
+Current Version is: 90
 
 Changelog can be found [here](changelog.md)
 

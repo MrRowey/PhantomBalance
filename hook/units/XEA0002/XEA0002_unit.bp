@@ -1,0 +1,15 @@
+UnitBlueprint {
+BlueprintId = "xea0002",
+Merge = true,
+    Weapon = {
+        {
+            BeamLifetime = 8.25,
+            CollideFriendly = true,
+            Damage = 70,
+            DamageFriendly = true,
+            DamageRadius = 1.25,
+            DisplayName = 'Orbital Death Laser',   
+        },
+        {},
+    },
+}

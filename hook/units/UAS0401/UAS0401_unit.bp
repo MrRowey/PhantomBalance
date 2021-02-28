@@ -1,0 +1,11 @@
+UnitBlueprint {
+BlueprintId = "uas0401",
+Merge = true,    
+    Defense = {
+        Health = 80000,
+        MaxHealth = 80000,
+    },
+    Economy = {
+        BuildTime = 21600,
+    },
+}

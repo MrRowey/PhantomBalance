@@ -9,7 +9,7 @@ Merge=true,
     Economy = {
         BuildCostEnergy = 13250000,
         BuildCostMass = 350000,
-        BuildTime = 450000,
+        BuildTime = 225050,
         MaxEnergy = 750000,
         MaxMass = 7500,
     },

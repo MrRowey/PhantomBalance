@@ -1,0 +1,10 @@
+UnitBlueprint {
+BlueprintId = "ues0401",
+Merge = true,
+    Economy = {
+        BuildTime = 14750,
+    },
+    Physics = {
+        Elevation = -4,
+    },
+}

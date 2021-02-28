@@ -1,0 +1,7 @@
+UnitBlueprint {
+BlueprintId = "ura0401",
+Merge = true,
+    Economy = {
+        BuildTime = 38125,
+    },
+}

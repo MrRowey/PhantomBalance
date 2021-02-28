@@ -1,0 +1,10 @@
+UnitBlueprint {
+BlueprintId = "xss0304",
+Merge = true,
+    Weapon = {
+        {
+            Damage = 360,
+        },
+        {},{},{},
+    },
+}

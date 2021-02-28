@@ -1,0 +1,14 @@
+UnitBlueprint {
+BlueprintId = "xab3301",
+Merge = true,
+    Footprint = {
+        SizeX = 6,
+        SizeZ = 6,
+    },
+    Physics = {
+        SkirtOffsetX = -1,
+        SkirtOffsetZ = -1,
+        SkirtSizeX = 6,
+        SkirtSizeZ = 6,
+    },
+}

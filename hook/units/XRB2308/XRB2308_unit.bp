@@ -1,0 +1,19 @@
+UnitBlueprint {
+BlueprintId = "xrb2308",
+Merge = true,
+    Defense = {
+        Health = 5000,
+        MaxHealth = 5000,
+    },
+    Footprint = {
+        MinWaterDepth = 2,
+    },
+    Physics = {
+        Elevation = 0,
+    },
+    Weapon = {
+        {
+            Damage = 60,
+        },
+    },
+}
